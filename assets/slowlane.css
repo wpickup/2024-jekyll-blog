@@ -380,17 +380,23 @@ footer {
 }
 
 article {
-  max-width: 80ch;
+  max-width: 60ch;
 }
 
 article.post img {
   margin-right: auto;
   margin-left: auto;
   height: auto;
-  /* Make sure images are scaled correctly. */
   max-width: 100%;
-  /* Adhere to container width. */
 }
+
+/* article.post img {
+  width: 80vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 32px -40vw;
+} */
 
 article.post {
   width: 100%;
@@ -418,6 +424,16 @@ hr {
   margin-top: 4rem;
   margin-bottom: 4rem;
   border: 1px solid var(--lightgray);
+}
+
+/* images */
+/* Wide alignment */
+.alignwide {
+  width: 80vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 32px -40vw;
 }
 
 /* archives */
@@ -525,4 +541,10 @@ video {
   margin-bottom: 24px;
   max-width: 100%;
   vertical-align: middle;
+}
+p > embed,
+p > iframe,
+p > object,
+p > video {
+  margin-bottom: 0;
 }
