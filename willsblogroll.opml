@@ -1,0 +1,23 @@
+<opml version="2.0">
+  <head>
+    <title>Subscriptions for williampickup (category: blogroll)</title>
+    <description>List created by manually by WP</description>
+    <dateModified>Fri, 15 Mar 2024 16:00 GMT</dateModified>
+  </head>
+  <body>
+    <outline
+      type="rss"
+      text="On my Om"
+      xmlUrl="http://om.co/feed/"
+      htmlUrl="https://om.co/"
+      category="all,blogroll,tech,bloggers"
+    />
+    <outline
+      type="rss"
+      text="This Week in the IndieWeb"
+      xmlUrl="https://indieweb.org/this-week/feed.xml"
+      htmlUrl="https://indieweb.org/this-week"
+      category="all,blogroll,tech"
+    />
+  </body>
+</opml>
