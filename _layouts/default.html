@@ -9,6 +9,15 @@
     />
   </head>
   <body>
+    <header class="tdbc-background--primary">
+      <div class="tdbc-container tdbc-content-maxlength">
+        <h1 class="tdbc-ink--light tdbc-mt-sm tdbc-text-align--center">
+          {{ page.title }}{% if page.subtitle %}<br /><span class="subtitle"
+            >{{ page.subtitle }}</span
+          >{% endif %}
+        </h1>
+      </div>
+    </header>
     {% include nav.html %}
     <main class="tdbc-container">{{ content }}</main>
     {% include foot.html %}
